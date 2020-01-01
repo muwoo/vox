@@ -1,0 +1,36 @@
+{
+  "name": "vox",
+  "version": "1.0.0",
+  "description": "基于vue的小程序实现方案",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "example": "webpack --mode development --config webpack.example.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muwoo/vox.git"
+  },
+  "keywords": [
+    "tinyApp"
+  ],
+  "author": "muwoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muwoo/vox/issues"
+  },
+  "homepage": "https://github.com/muwoo/vox#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}

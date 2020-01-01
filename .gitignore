@@ -1,0 +1,12 @@
+node_modules
+.entry
+.happypack
+_package
+.alipay
+_dist
+yarn.lock
+yarn-error.log
+.idea
+/_tmp
+
+src/.tea
