@@ -4,6 +4,6 @@
 # run example
 ```
 npm i
-npm run build
-npm run build-exapmle
+npm run dev
+npm run exapmle
 ```
